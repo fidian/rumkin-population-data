@@ -1,0 +1,208 @@
+File WPP2015_DB01_Period_Indicators.csv
+
+Description: All period indicators (total fertility, net reproduction rate, crude birth rate, births, mean age of childbearing, life expectancy at birth (by sex), infant mortality rate, under-five mortality, crude death rate, total number of deaths (by sex) and by broad age group, percentage total deaths by broad age group and by sex, probability of dying between birth and the age of 40 or 60 years (by sex), adult probability of dying between age 15 and 50 or 60 (by sex), life expectancy at age 15, 60 and 80 (by sex), net migration rate, net number of migrants, average annual rate of population change, rate of natural increase, sex ratio at birth) by major area, region and country, for estimates and all 8 projection variants or scenarios, 1950-2100.
+Source: Population Division of the Department of Economic and Social Affairs of the United Nations Secretariat, World Population Prospects: The 2015 Revision, http://esa.un.org/unpd/wpp/index.htm, July 2015.
+
+File format is ASCII CSV text file (comma delimited separator with text fields in quotes). File size is 65.1MB
+
+This data file contains 64,320 data records, plus one header record containing the 178 field names as specified below:
+
+-------------------------------------------------------------------------------
+Field name      Description
+-------------------------------------------------------------------------------
+LocID           Numerical Location Code (3-digit codes following ISO 3166-1 numeric standard) - see http://en.wikipedia.org/wiki/ISO_3166-1_numeric
+Location        Name of country, region, major area or other aggregate
+VarID           Projection variant code
+                2=Medium; 3=High; 4=Low; 5=Constant fertility;
+                6=Instant-replacement; 7=Zero-migration; 8=Constant-mortality; 9=No change
+Variant         Projection variant name
+Time            Calendar year (5-years period)
+MidPeriod       Mid-period (1 January)
+TFR             Total fertility (children per woman)
+NRR             Net reproduction rate (surviving daughters per woman)
+CBR             Crude birth rate (births per 1,000 population)
+Births          Number of births, both sexes combined (thousands)
+LEx             Life expectancy at birth for both sexes combined (years)
+LExMale         Male life expectancy at birth (years)
+LExFemale       Female life expectancy at birth (years)
+IMR             Infant mortality rate, q(1), for both sexes combined (infant deaths per 1,000 live births)
+Q5              Under-five mortality, 5q0, for both sexes combined (deaths under age five per 1,000 live births)
+CDR             Crude death rate (deaths per 1,000 population)
+Deaths          Number of deaths, both sexes combined (thousands)
+DeathsMale      Number of male deaths (thousands)
+DeathsFemale    Number of female deaths (thousands)
+CNMR            Net migration rate (per 1,000 population)
+NetMigrations   Net number of migrants, both sexes combined (thousands)
+GrowthRate      Average annual rate of population change (percentage)
+NatIncr         Rate of natural increase (per 1,000 population)
+SRB             Sex ratio at birth (male births per female births)
+MAC             Female mean age of childbearing (years)
+Death0004T      Number of deaths (both sexes combined) under age 5 (thousands)
+Death0004M      Number of male deaths under age 5 (thousands)
+Death0004F      Number of female deaths under age 5 (thousands)
+Death0014T      Number of deaths (both sexes combined) under age 15 (thousands)
+Death0014M      Number of male deaths under age 15 (thousands)
+Death0014F      Number of female deaths under age 15 (thousands)
+Death0019T      Number of deaths (both sexes combined) under age 20 (thousands)
+Death0019M      Number of male deaths under age 20 (thousands)
+Death0019F      Number of female deaths under age 20 (thousands)
+Death0024T      Number of deaths (both sexes combined) under age 25 (thousands)
+Death0024M      Number of male deaths under age 25 (thousands)
+Death0024F      Number of female deaths under age 25 (thousands)
+Death0514T      Number of deaths (both sexes combined) age 5-14 (thousands)
+Death0514M      Number of male deaths age 5-14 (thousands)
+Death0514F      Number of female deaths age 5-14 (thousands)
+Death1524T      Number of deaths (both sexes combined) age 15-24 (thousands)
+Death1524M      Number of male deaths age 15-24 (thousands)
+Death1524F      Number of female deaths age 15-24 (thousands)
+Death1549T      Number of deaths (both sexes combined) age 15-49 (thousands)
+Death1549M      Number of male deaths age 15-49 (thousands)
+Death1549F      Number of female deaths age 15-49 (thousands)
+Death1559T      Number of deaths (both sexes combined) age 15-59 (thousands)
+Death1559M      Number of male deaths age 15-59 (thousands)
+Death1559F      Number of female deaths age 15-59 (thousands)
+Death1564T      Number of deaths (both sexes combined) age 15-64 (thousands)
+Death1564M      Number of male deaths age 15-64 (thousands)
+Death1564F      Number of female deaths age 15-64 (thousands)
+Death1599T      Number of deaths (both sexes combined) age 15+ (thousands)
+Death1599M      Number of male deaths age 15+ (thousands)
+Death1599F      Number of female deaths age 15+ (thousands)
+Death2064T      Number of deaths (both sexes combined) age 20-64 (thousands)
+Death2064M      Number of male deaths age 20-64 (thousands)
+Death2064F      Number of female deaths age 20-64 (thousands)
+Death2069T      Number of deaths (both sexes combined) age 20-69 (thousands)
+Death2069M      Number of male deaths age 20-69 (thousands)
+Death2069F      Number of female deaths age 20-69 (thousands)
+Death2099T      Number of deaths (both sexes combined) age 20+ (thousands)
+Death2099M      Number of male deaths age 20+ (thousands)
+Death2099F      Number of female deaths age 20+ (thousands)
+Death2569T      Number of deaths (both sexes combined) age 25-69 (thousands)
+Death2569M      Number of male deaths age 25-69 (thousands)
+Death2569F      Number of female deaths age 25-69 (thousands)
+Death2599T      Number of deaths (both sexes combined) age 25+ (thousands)
+Death2599M      Number of male deaths age 25+ (thousands)
+Death2599F      Number of female deaths age 25+ (thousands)
+Death4099T      Number of deaths (both sexes combined) age 40+ (thousands)
+Death4099M      Number of male deaths age 40+ (thousands)
+Death4099F      Number of female deaths age 40+ (thousands)
+Death5099T      Number of deaths (both sexes combined) age 50+ (thousands)
+Death5099M      Number of male deaths age 50+ (thousands)
+Death5099F      Number of female deaths age 50+ (thousands)
+Death6099T      Number of deaths (both sexes combined) age 60+ (thousands)
+Death6099M      Number of male deaths age 60+ (thousands)
+Death6099F      Number of female deaths age 60+ (thousands)
+Death6599T      Number of deaths (both sexes combined) age 65+ (thousands)
+Death6599M      Number of male deaths age 65+ (thousands)
+Death6599F      Number of female deaths age 65+ (thousands)
+Death7099T      Number of deaths (both sexes combined) age 70+ (thousands)
+Death7099M      Number of male deaths age 70+ (thousands)
+Death7099F      Number of female deaths age 70+ (thousands)
+Death8099T      Number of deaths (both sexes combined) age 80+ (thousands)
+Death8099M      Number of male deaths age 80+ (thousands)
+Death8099F      Number of female deaths age 80+ (thousands)
+Death9099T      Number of deaths (both sexes combined) age 90+ (thousands)
+Death9099M      Number of male deaths age 90+ (thousands)
+Death9099F      Number of female deaths age 90+ (thousands)
+percDeath0004T  Percentage of deaths (both sexes combined) under age 5
+percDeath0004M  Percentage of male deaths under age 5
+percDeath0004F  Percentage of female deaths under age 5
+percDeath0014T  Percentage of deaths (both sexes combined) under age 15
+percDeath0014M  Percentage of male deaths under age 15
+percDeath0014F  Percentage of female deaths under age 15
+percDeath0019T  Percentage of deaths (both sexes combined) under age 20
+percDeath0019M  Percentage of male deaths under age 20
+percDeath0019F  Percentage of female deaths under age 20
+percDeath0024T  Percentage of deaths (both sexes combined) under age 25
+percDeath0024M  Percentage of male deaths under age 25
+percDeath0024F  Percentage of female deaths under age 25
+percDeath0514T  Percentage of deaths (both sexes combined) age 5-14
+percDeath0514M  Percentage of male deaths age 5-14
+percDeath0514F  Percentage of female deaths age 5-14
+percDeath1524T  Percentage of deaths (both sexes combined) age 15-24
+percDeath1524M  Percentage of male deaths age 15-24
+percDeath1524F  Percentage of female deaths age 15-24
+percDeath1549T  Percentage of deaths (both sexes combined) age 15-49
+percDeath1549M  Percentage of male deaths age 15-49
+percDeath1549F  Percentage of female deaths age 15-49
+percDeath1559T  Percentage of deaths (both sexes combined) age 15-59
+percDeath1559M  Percentage of male deaths age 15-59
+percDeath1559F  Percentage of female deaths age 15-59
+percDeath1564T  Percentage of deaths (both sexes combined) age 15-64
+percDeath1564M  Percentage of male deaths age 15-64
+percDeath1564F  Percentage of female deaths age 15-64
+percDeath1599T  Percentage of deaths (both sexes combined) age 15+
+percDeath1599M  Percentage of male deaths age 15+
+percDeath1599F  Percentage of female deaths age 15+
+percDeath2064T  Percentage of deaths (both sexes combined) age 20-64
+percDeath2064M  Percentage of male deaths age 20-64
+percDeath2064F  Percentage of female deaths age 20-64
+percDeath2069T  Percentage of deaths (both sexes combined) age 20-69
+percDeath2069M  Percentage of male deaths age 20-69
+percDeath2069F  Percentage of female deaths age 20-69
+percDeath2099T  Percentage of deaths (both sexes combined) age 20+
+percDeath2099M  Percentage of male deaths age 20+
+percDeath2099F  Percentage of female deaths age 20+
+percDeath2569T  Percentage of deaths (both sexes combined) age 25-69
+percDeath2569M  Percentage of male deaths age 25-69
+percDeath2569F  Percentage of female deaths age 25-69
+percDeath2599T  Percentage of deaths (both sexes combined) age 25+
+percDeath2599M  Percentage of male deaths age 25+
+percDeath2599F  Percentage of female deaths age 25+
+percDeath4099T  Percentage of deaths (both sexes combined) age 40+
+percDeath4099M  Percentage of male deaths age 40+
+percDeath4099F  Percentage of female deaths age 40+
+percDeath5099T  Percentage of deaths (both sexes combined) age 50+
+percDeath5099M  Percentage of male deaths age 50+
+percDeath5099F  Percentage of female deaths age 50+
+percDeath6099T  Percentage of deaths (both sexes combined) age 60+
+percDeath6099M  Percentage of male deaths age 60+
+percDeath6099F  Percentage of female deaths age 60+
+percDeath6599T  Percentage of deaths (both sexes combined) age 65+
+percDeath6599M  Percentage of male deaths age 65+
+percDeath6599F  Percentage of female deaths age 65+
+percDeath7099T  Percentage of deaths (both sexes combined) age 70+
+percDeath7099M  Percentage of male deaths age 70+
+percDeath7099F  Percentage of female deaths age 70+
+percDeath8099T  Percentage of deaths (both sexes combined) age 80+
+percDeath8099M  Percentage of male deaths age 80+
+percDeath8099F  Percentage of female deaths age 80+
+percDeath9099T  Percentage of deaths (both sexes combined) age 90+
+percDeath9099M  Percentage of male deaths age 90+
+percDeath9099F  Percentage of female deaths age 90+
+Q0040Total      Probability of dying between birth and the age of 40 years (40q0) for both sexes (deaths under age 40 per 1,000 live births)
+Q0040Male       Male probability of dying between birth and the age of 40 years (40q0) (deaths under age 40 per 1,000 live births)
+Q0040Female     Female probability of dying between birth and the age of 40 years (40q0) (deaths under age 40 per 1,000 live births)
+Q0060Total      Probability of dying between birth and the age of 60 years (60q0) for both sexes (deaths under age 60 per 1,000 live births)
+Q0060Male       Male probability of dying between birth and the age of 60 years (60q0) (deaths under age 60 per 1,000 live births)
+Q0060Female     Female probability of dying between birth and the age of 60 years (60q0) (deaths under age 60 per 1,000 live births)
+Q1535Total      Probability of dying between the ages of 15 and 50 years (35q15) for both sexes combined (deaths under age 50 per 1,000 alive at age 15)
+Q1535Male       Male probability of dying between the ages of 15 and 50 years (35q15) (deaths under age 50 per 1,000 alive at age 15)
+Q1535Female     Female probability of dying between the ages of 15 and 50 years (35q15) (deaths under age 50 per 1,000 alive at age 15)
+Q1545Total      Probability of dying between the ages of 15 and 60 years (45q15) for both sexes combined (deaths under age 60 per 1,000 alive at age 15)
+Q1545Male       Male probability of dying between the ages of 15 and 60 years (45q15) (deaths under age 60 per 1,000 alive at age 15)
+Q1545Female     Female probability of dying between the ages of 15 and 60 years (45q15) (deaths under age 60 per 1,000 alive at age 15)
+Ex15Total       Life expectancy at age 15 (e15) for both sexes (years)
+Ex15Male        Male life expectancy at age 15 (e15) (years)
+Ex15Female      Female life expectancy at age 15 (e15) (years)
+Ex60Total       Life expectancy at age 15 (e60) for both sexes (years)
+Ex60Male        Male life expectancy at age 15 (e60) (years)
+Ex60Female      Female life expectancy at age 15 (e60) (years)
+Ex80Total       Life expectancy at age 80 (e80) for both sexes (years)
+Ex80Male        Male life expectancy at age 80 (e80) (years)
+Ex80Female      Female life expectancy at age 80 (e80) (years)
+-------------------------------------------------------------------------------
+Sorted by:   VarID  LocID  Time
+
+
+Sample records (beginning and end of file):
+
+LocID,Location,VarID,Variant,Time,MidPeriod,TFR,NRR,CBR,Births,LEx,LExMale,LExFemale,IMR,Q5,CDR,Deaths,DeathsMale,DeathsFemale,CNMR,NetMigrations,GrowthRate,NatIncr,SRB,MAC,Death0004T,Death0004M,Death0004F,Death0014T,Death0014M,Death0014F,Death0019T,Death0019M,Death0019F,Death0024T,Death0024M,Death0024F,Death0514T,Death0514M,Death0514F,Death1524T,Death1524M,Death1524F,Death1549T,Death1549M,Death1549F,Death1559T,Death1559M,Death1559F,Death1564T,Death1564M,Death1564F,Death1599T,Death1599M,Death1599F,Death2064T,Death2064M,Death2064F,Death2069T,Death2069M,Death2069F,Death2099T,Death2099M,Death2099F,Death2569T,Death2569M,Death2569F,Death2599T,Death2599M,Death2599F,Death4099T,Death4099M,Death4099F,Death5099T,Death5099M,Death5099F,Death6099T,Death6099M,Death6099F,Death6599T,Death6599M,Death6599F,Death7099T,Death7099M,Death7099F,Death8099T,Death8099M,Death8099F,Death9099T,Death9099M,Death9099F,percDeath0004T,percDeath0004M,percDeath0004F,percDeath0014T,percDeath0014M,percDeath0014F,percDeath0019T,percDeath0019M,percDeath0019F,percDeath0024T,percDeath0024M,percDeath0024F,percDeath0514T,percDeath0514M,percDeath0514F,percDeath1524T,percDeath1524M,percDeath1524F,percDeath1549T,percDeath1549M,percDeath1549F,percDeath1559T,percDeath1559M,percDeath1559F,percDeath1564T,percDeath1564M,percDeath1564F,percDeath1599T,percDeath1599M,percDeath1599F,percDeath2064T,percDeath2064M,percDeath2064F,percDeath2069T,percDeath2069M,percDeath2069F,percDeath2099T,percDeath2099M,percDeath2099F,percDeath2569T,percDeath2569M,percDeath2569F,percDeath2599T,percDeath2599M,percDeath2599F,percDeath4099T,percDeath4099M,percDeath4099F,percDeath5099T,percDeath5099M,percDeath5099F,percDeath6099T,percDeath6099M,percDeath6099F,percDeath6599T,percDeath6599M,percDeath6599F,percDeath7099T,percDeath7099M,percDeath7099F,percDeath8099T,percDeath8099M,percDeath8099F,percDeath9099T,percDeath9099M,percDeath9099F,Q0040Total,Q0040Male,Q0040Female,Q0060Total,Q0060Male,Q0060Female,Q1535Total,Q1535Male,Q1535Female,Q1545Total,Q1545Male,Q1545Female,Ex15Total,Ex15Male,Ex15Female,Ex60Total,Ex60Male,Ex60Female,Ex80Total,Ex80Male,Ex80Female
+4,"Afghanistan",2,"Medium","1950-1955",1953,7.450,1.632,50.322,2015.651,28.59,27.95,29.38,280.983,406.850,36.893,1477.745,797.398,680.347,-0.499,-20.000,1.293,13.429,1.060,29.833,812.047,425.069,386.978,900.740,467.343,433.397,940.668,487.073,453.595,987.495,511.698,475.797,88.693,42.274,46.419,86.755,44.355,42.400,307.710,169.951,137.759,398.047,225.012,173.035,447.207,254.401,192.806,577.005,330.055,246.950,407.279,234.671,172.608,454.533,262.542,191.991,537.077,310.325,226.752,407.706,237.917,169.789,490.250,285.700,204.550,353.861,210.917,142.944,269.295,160.104,109.191,178.958,105.043,73.915,129.798,75.654,54.144,82.544,47.783,34.761,16.009,9.148,6.861,0.475,0.262,0.213,54.952,53.307,56.880,60.954,58.608,63.702,63.656,61.083,66.671,66.824,64.171,69.934,6.002,5.301,6.823,5.871,5.562,6.232,20.823,21.313,20.248,26.936,28.218,25.433,30.263,31.904,28.339,39.046,41.392,36.298,27.561,29.430,25.371,30.759,32.925,28.220,36.344,38.917,33.329,27.590,29.837,24.956,33.176,35.829,30.066,23.946,26.451,21.010,18.223,20.078,16.049,12.110,13.173,10.864,8.784,9.488,7.958,5.586,5.992,5.109,1.083,1.147,1.008,0.032,0.033,0.031,627.080,630.869,622.762,798.960,813.568,779.842,461.828,475.748,444.598,630.178,653.458,599.632,35.99,35.42,36.76,10.72,10.37,11.20,3.76,3.65,3.90
+4,"Afghanistan",2,"Medium","1955-1960",1958,7.450,1.763,50.995,2201.066,31.11,30.44,31.93,256.269,374.505,33.740,1456.297,781.937,674.360,-0.463,-20.000,1.680,17.255,1.060,29.833,804.671,424.092,380.579,892.313,465.194,427.119,931.781,484.491,447.290,977.606,508.173,469.433,87.642,41.102,46.540,85.293,42.979,42.314,300.297,163.622,136.675,385.815,214.433,171.382,432.410,241.640,190.770,563.984,316.743,247.241,392.942,222.343,170.599,438.709,248.914,189.795,524.516,297.446,227.070,392.884,225.232,167.652,478.691,273.764,204.927,345.097,201.242,143.855,263.687,153.121,110.566,178.169,102.310,75.859,131.574,75.103,56.471,85.807,48.532,37.275,18.535,10.249,8.286,0.695,0.364,0.331,55.255,54.236,56.436,61.273,59.493,63.337,63.983,61.960,66.328,67.130,64.989,69.612,6.018,5.256,6.901,5.857,5.496,6.275,20.621,20.925,20.267,26.493,27.423,25.414,29.692,30.903,28.289,38.727,40.507,36.663,26.982,28.435,25.298,30.125,31.833,28.144,36.017,38.040,33.672,26.978,28.804,24.861,32.870,35.011,30.388,23.697,25.736,21.332,18.107,19.582,16.396,12.234,13.084,11.249,9.035,9.605,8.374,5.892,6.207,5.527,1.273,1.311,1.229,0.048,0.047,0.049,589.967,593.573,585.758,767.496,783.337,747.814,431.508,445.117,415.353,597.633,621.665,567.956,37.41,36.80,38.21,11.19,10.80,11.69,3.94,3.82,4.09
+4,"Afghanistan",2,"Medium","1960-1965",1963,7.450,1.877,51.486,2436.606,33.39,32.69,34.22,234.258,346.918,31.189,1476.041,787.041,689.000,-0.423,-20.000,1.989,20.297,1.060,29.833,823.747,434.202,389.545,912.090,476.052,436.038,952.177,495.060,457.117,998.105,518.541,479.564,88.343,41.850,46.493,86.015,42.489,43.526,300.047,161.253,138.794,383.571,209.791,173.780,428.993,235.659,193.334,563.951,310.989,252.962,388.906,216.651,172.255,433.842,242.108,191.734,523.864,291.981,231.883,387.914,218.627,169.287,477.936,268.500,209.436,344.935,197.227,147.708,263.904,149.736,114.168,180.380,101.198,79.182,134.958,75.330,59.628,90.022,49.873,40.149,21.127,11.378,9.749,0.984,0.495,0.489,55.808,55.169,56.538,61.793,60.486,63.286,64.509,62.901,66.345,67.620,65.885,69.603,5.985,5.317,6.748,5.827,5.399,6.317,20.328,20.489,20.144,25.986,26.656,25.222,29.064,29.942,28.060,38.207,39.514,36.714,26.348,27.527,25.001,29.392,30.762,27.828,35.491,37.099,33.655,26.281,27.778,24.570,32.380,34.115,30.397,23.369,25.059,21.438,17.879,19.025,16.570,12.221,12.858,11.492,9.143,9.571,8.654,6.099,6.337,5.827,1.431,1.446,1.415,0.067,0.063,0.071,556.771,560.212,552.707,738.083,754.879,718.035,405.323,418.420,389.988,568.793,593.218,539.898,38.67,38.02,39.49,11.61,11.19,12.13,4.09,3.96,4.24
+4,"Afghanistan",2,"Medium","1965-1970",1968,7.450,1.984,51.721,2722.648,35.58,34.87,36.39,216.073,321.696,28.816,1516.909,803.265,713.644,-0.380,-20.000,2.255,22.905,1.060,29.833,853.048,449.368,403.680,944.756,493.216,451.540,985.179,512.220,472.959,1032.121,535.466,496.655,91.708,43.848,47.860,87.365,42.250,45.115,303.084,160.558,142.526,387.052,208.715,178.337,432.341,233.904,198.437,572.153,310.049,262.104,391.918,214.900,177.018,436.962,239.774,197.188,531.730,291.045,240.685,390.020,216.528,173.492,484.788,267.799,216.989,351.226,197.324,153.902,269.069,149.491,119.578,185.101,101.334,83.767,139.812,76.145,63.667,94.768,51.271,43.497,23.795,12.518,11.277,1.281,0.625,0.656,56.236,55.943,56.566,62.282,61.401,63.272,64.946,63.767,66.274,68.041,66.661,69.594,6.046,5.459,6.706,5.759,5.260,6.322,19.980,19.988,19.972,25.516,25.983,24.990,28.501,29.119,27.806,37.718,38.599,36.728,25.837,26.753,24.805,28.806,29.850,27.631,35.054,36.233,33.726,25.711,26.956,24.311,31.959,33.339,30.406,23.154,24.565,21.566,17.738,18.610,16.756,12.203,12.615,11.738,9.217,9.479,8.921,6.247,6.383,6.095,1.569,1.558,1.580,0.084,0.078,0.092,525.113,528.160,521.571,709.030,726.320,689.001,380.939,393.328,366.664,541.558,565.884,513.632,39.88,39.20,40.69,12.01,11.55,12.53,4.23,4.09,4.39
+...
+5501,"Southern Asia",9,"No change","2080-2085",2083,2.853,1.249,19.542,309626.918,66.84,65.54,68.25,51.362,65.652,12.710,201379.607,105496.124,95883.483,-0.207,-3280.338,0.663,6.832,1.080,27.292,20319.336,10609.167,9710.169,22757.389,11845.020,10912.369,24257.927,12610.864,11647.063,26252.685,13672.457,12580.228,2438.053,1235.853,1202.200,3495.296,1827.437,1667.859,19908.727,11981.256,7927.471,37020.037,22316.403,14703.634,51499.494,30439.905,21059.589,178622.218,93651.104,84971.114,49998.956,29674.061,20324.895,69522.244,40184.091,29338.153,177121.680,92885.260,84236.420,67527.486,39122.498,28404.988,175126.922,91823.667,83303.255,167508.896,87228.485,80280.411,158713.491,81669.848,77043.643,141602.181,71334.701,70267.480,127122.724,63211.199,63911.525,107599.436,52701.169,54898.267,56364.837,26408.115,29956.722,13995.328,6131.273,7864.055,10.090,10.056,10.127,11.301,11.228,11.381,12.046,11.954,12.147,13.036,12.960,13.120,1.211,1.171,1.254,1.736,1.732,1.739,9.886,11.357,8.268,18.383,21.154,15.335,25.573,28.854,21.964,88.699,88.772,88.619,24.828,28.128,21.197,34.523,38.091,30.598,87.954,88.046,87.853,33.532,37.084,29.624,86.964,87.040,86.880,83.181,82.684,83.727,78.813,77.415,80.351,70.316,67.618,73.284,63.126,59.918,66.655,53.431,49.956,57.255,27.989,25.032,31.243,6.950,5.812,8.202,,,,,,,,,,,,,,,,,,,,,
+5501,"Southern Asia",9,"No change","2085-2090",2088,2.882,1.260,19.758,323857.214,66.75,65.45,68.15,52.004,66.540,12.632,207045.244,108514.303,98530.941,-0.185,-3028.092,0.694,7.126,1.080,27.337,21532.817,11255.631,10277.186,24106.536,12560.750,11545.786,25680.436,13364.844,12315.592,27760.096,14471.382,13288.714,2573.719,1305.119,1268.600,3653.560,1910.632,1742.928,20677.901,12415.325,8262.576,38128.905,22930.902,15198.003,53080.627,31308.933,21771.694,182938.708,95953.553,86985.155,51506.727,30504.839,21001.888,71996.155,41524.901,30471.254,181364.808,95149.459,86215.349,69916.495,40418.363,29498.132,179285.148,94042.921,85242.227,171359.905,89272.109,82087.796,162260.807,83538.228,78722.579,144809.803,73022.651,71787.152,129858.081,64644.620,65213.461,109368.653,53624.558,55744.095,57612.022,27081.905,30530.117,14435.611,6379.484,8056.127,10.400,10.372,10.430,11.643,11.575,11.718,12.403,12.316,12.499,13.408,13.336,13.487,1.243,1.203,1.288,1.765,1.761,1.769,9.987,11.441,8.386,18.416,21.132,15.425,25.637,28.852,22.096,88.357,88.425,88.282,24.877,28.111,21.315,34.773,38.267,30.926,87.597,87.684,87.501,33.769,37.247,29.938,86.592,86.664,86.513,82.764,82.268,83.312,78.370,76.984,79.896,69.941,67.293,72.857,62.720,59.572,66.186,52.824,49.417,56.575,27.826,24.957,30.985,6.972,5.879,8.176,,,,,,,,,,,,,,,,,,,,,
+5501,"Southern Asia",9,"No change","2090-2095",2093,2.914,1.273,20.011,339884.994,66.65,65.35,68.05,52.648,67.433,12.556,213273.929,111775.943,101497.986,-0.163,-2775.794,0.729,7.455,1.080,27.384,22888.755,11978.118,10910.637,25608.055,13357.580,12250.475,27263.688,14204.277,13059.411,29443.354,15363.810,14079.544,2719.300,1379.462,1339.838,3835.299,2006.230,1829.069,21550.754,12912.854,8637.900,39400.544,23642.707,15757.837,54652.596,32175.440,22477.156,187665.874,98418.363,89247.511,52996.963,31328.743,21668.220,74135.109,42683.341,31451.768,186010.241,97571.666,88438.575,71955.443,41523.808,30431.635,183830.575,96412.133,87418.442,175591.062,91463.402,84127.660,166115.120,85505.509,80609.611,148265.330,74775.656,73489.674,133013.278,66242.923,66770.355,111875.132,54888.325,56986.807,58317.572,27432.935,30884.637,14774.633,6565.709,8208.924,10.732,10.716,10.750,12.007,11.950,12.070,12.783,12.708,12.867,13.805,13.745,13.872,1.275,1.234,1.320,1.798,1.795,1.802,10.105,11.552,8.510,18.474,21.152,15.525,25.626,28.786,22.145,87.993,88.050,87.930,24.849,28.028,21.348,34.761,38.187,30.988,87.217,87.292,87.133,33.739,37.149,29.983,86.195,86.255,86.128,82.331,81.827,82.886,77.888,76.497,79.420,69.519,66.898,72.405,62.367,59.264,65.785,52.456,49.106,56.146,27.344,24.543,30.429,6.928,5.874,8.088,,,,,,,,,,,,,,,,,,,,,
+5501,"Southern Asia",9,"No change","2095-2100",2098,2.947,1.286,20.295,357850.984,66.55,65.26,67.94,53.298,68.338,12.482,220101.339,115317.247,104784.092,-0.143,-2522.818,0.767,7.813,1.070,27.432,24408.061,12787.595,11620.466,27286.661,14248.405,13038.256,29029.512,15140.636,13888.876,31320.193,16359.019,14961.174,2878.600,1460.810,1417.790,4033.532,2110.614,1922.918,22475.936,13439.603,9036.333,40929.746,24509.206,16420.540,56453.148,33177.441,23275.707,192814.678,101068.842,91745.836,54710.297,32285.210,22425.087,76259.044,43842.307,32416.737,191071.827,100176.611,90895.216,73968.363,42623.924,31344.439,188781.146,98958.228,89822.918,180193.701,93813.186,86380.515,170338.742,87629.239,82709.503,151884.932,76559.636,75325.296,136361.530,67891.401,68470.129,114812.783,56334.304,58478.479,59176.136,27853.116,31323.020,15045.828,6696.816,8349.012,11.089,11.089,11.090,12.397,12.356,12.443,13.189,13.130,13.255,14.230,14.186,14.278,1.308,1.267,1.353,1.833,1.830,1.835,10.212,11.654,8.624,18.596,21.254,15.671,25.649,28.771,22.213,87.603,87.644,87.557,24.857,27.997,21.401,34.647,38.019,30.937,86.811,86.870,86.745,33.607,36.962,29.913,85.770,85.814,85.722,81.869,81.352,82.437,77.391,75.990,78.933,69.007,66.390,71.886,61.954,58.874,65.344,52.164,48.852,55.809,26.886,24.153,29.893,6.836,5.807,7.968,,,,,,,,,,,,,,,,,,,,,

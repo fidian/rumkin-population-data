@@ -181,7 +181,17 @@ timePeriodScale = 5;  // The birth/death rate counts are for a multi-year span
 decimalsForRanges = 10;
 result = {};
 
-fs.createReadStream(filename)
+fs.createReadStream(filename, {
+    encoding: "binary"
+})
+    .pipe(through2(function (data, enc, callback) {
+        var s;
+
+        // Convert the data so Curaçao (LocID 531) and others look good.
+        s = data.toString("utf8");
+        this.push(Buffer.from(s, "utf8"));
+        callback();
+    }))
     .pipe(csv.parse({
         auto_parse: true,
         columns: true

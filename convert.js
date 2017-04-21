@@ -15,8 +15,8 @@
  *         "B": 4407, // Births per year
  *         "D": 2054.8, // Deaths per year
  *         "M": asdf, // Migration rate per year
- *         "BMP": 0.5090819833, // Percent of deaths that are male
- *         "DMP": 0.5021413276, // Percent of deaths that are male
+ *         "BMP": 0.5090819833, // Probability of deaths that are male
+ *         "DMP": 0.5021413276, // Probability of deaths that are male
  *         "DM": { // Male death age ranges
  *             "00-04": 0.00737,
  *             "05-14": 0.00213,
@@ -148,27 +148,27 @@ function estimatePopulation(record) {
  */
 function gatherDeathStats(record, suffix) {
     /**
-     * Return the percentage of deaths for a given age range.
+     * Return the probability of deaths for a given age range.
      *
      * @param {string} range
      * @return {number}
      */
-    function pct(range) {
+    function prob(range) {
         return record[`percDeath${range}${suffix}`] / 100;
     }
 
     return {
-        "00-04": shorten(pct("0004"), decimalsForRanges),
-        "05-14": shorten(pct("0514"), decimalsForRanges),
-        "15-19": shorten(pct("0019") - pct("0014"), decimalsForRanges),
-        "20-24": shorten(pct("0024") - pct("0019"), decimalsForRanges),
-        "25-49": shorten(pct("1549") - pct("1524"), decimalsForRanges),
-        "49-59": shorten(pct("1559") - pct("1549"), decimalsForRanges),
-        "60-64": shorten(pct("6099") - pct("6599"), decimalsForRanges),
-        "65-69": shorten(pct("6599") - pct("7099"), decimalsForRanges),
-        "70-80": shorten(pct("7099") - pct("8099"), decimalsForRanges),
-        "80-90": shorten(pct("8099") - pct("9099"), decimalsForRanges),
-        "90+": shorten(pct("9099"), decimalsForRanges)
+        "00-04": shorten(prob("0004"), decimalsForRanges),
+        "05-14": shorten(prob("0514"), decimalsForRanges),
+        "15-19": shorten(prob("0019") - prob("0014"), decimalsForRanges),
+        "20-24": shorten(prob("0024") - prob("0019"), decimalsForRanges),
+        "25-49": shorten(prob("1549") - prob("1524"), decimalsForRanges),
+        "49-59": shorten(prob("1559") - prob("1549"), decimalsForRanges),
+        "60-64": shorten(prob("6099") - prob("6599"), decimalsForRanges),
+        "65-69": shorten(prob("6599") - prob("7099"), decimalsForRanges),
+        "70-80": shorten(prob("7099") - prob("8099"), decimalsForRanges),
+        "80-90": shorten(prob("8099") - prob("9099"), decimalsForRanges),
+        "90+": shorten(prob("9099"), decimalsForRanges)
     };
 }
 
@@ -216,7 +216,7 @@ fs.createReadStream(filename, {
                 D: shorten(record.Deaths / timePeriodScale * 1000, 2),
                 M: shorten(record.NetMigrations / timePeriodScale * 1000, 2),
 
-                // Calculate some percentages and the death probabilities
+                // Calculate some probabilities
                 BMP: shorten(record.SRB / (record.SRB + 1), 4),
                 DMP: shorten(record.DeathsMale / record.Deaths, 4),
                 DM: gatherDeathStats(record, "M"),

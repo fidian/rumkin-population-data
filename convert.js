@@ -14,6 +14,7 @@
  *         "P": 323734, // Population as of 2013 (estimate based off stats in record)
  *         "B": 4407, // Births per year
  *         "D": 2054.8, // Deaths per year
+ *         "M": asdf, // Migration rate per year
  *         "BMP": 0.5090819833, // Percent of deaths that are male
  *         "DMP": 0.5021413276, // Percent of deaths that are male
  *         "DM": { // Male death age ranges
@@ -213,6 +214,7 @@ fs.createReadStream(filename, {
                 // Use Births/Deaths per year.
                 B: shorten(record.Births / timePeriodScale * 1000, 2),
                 D: shorten(record.Deaths / timePeriodScale * 1000, 2),
+                M: shorten(record.NetMigrations / timePeriodScale * 1000, 2),
 
                 // Calculate some percentages and the death probabilities
                 BMP: shorten(record.SRB / (record.SRB + 1), 4),

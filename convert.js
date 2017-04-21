@@ -203,7 +203,8 @@ fs.createReadStream(filename, {
         // Only look for our time period and a "Medium" projection. Since
         // this data is in the past, there's really no projection. It's
         // a pretty solid estimate as to the actual numbers.
-        if (record.MidPeriod === targetMidPeriod && record.VarID === 2) {
+        // Only keep records that have data.
+        if (record.MidPeriod === targetMidPeriod && record.VarID === 2 && record.Births !== "") {
             newRecord = {
                 // Shorten LocID and Location property names
                 I: record.LocID,
